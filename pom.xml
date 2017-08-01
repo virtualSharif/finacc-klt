@@ -104,7 +104,7 @@
 				<version>${frontend-maven-plugin.version}</version>
 				<configuration>
 					<nodeVersion>v8.0.0</nodeVersion>
-					<workingDirectory>src/main/resources/frontend/</workingDirectory>
+					<workingDirectory>src/main/resources/front/</workingDirectory>
 				</configuration>
 				<executions>
 					<execution>
@@ -145,7 +145,7 @@
 							<outputDirectory>target/classes/static</outputDirectory>
 							<resources>
 								<resource>
-									<directory>src/main/resources/frontend/dist</directory>
+									<directory>src/main/resources/front/dist</directory>
 								</resource>
 							</resources>
 						</configuration>
